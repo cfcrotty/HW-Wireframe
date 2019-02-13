@@ -17,9 +17,17 @@ header {
     padding: 20px;
 }
 
+header:hover {
+    background-color: #466b31;
+}
+
 nav {
     padding: 20px;
     margin-bottom: 20px;
+}
+
+nav:hover {
+    background-color: #341f5c;
 }
 
 article {
@@ -36,6 +44,14 @@ h1, p {
     margin: 10px;
 }
 
+h1:hover {
+    background-color: #1596b6;
+}
+
+p:hover {
+    background-color: #68b125;
+}
+
 section {
     display: block;
     width: 495px;
@@ -45,6 +61,10 @@ section {
     margin-right: 20px;
 }
 
+section:hover {
+    background-color: #9b1c7b;
+}
+
 aside {
     display: block;
     float: left;
@@ -52,11 +72,35 @@ aside {
     height: 172px;
 }
 
+aside:hover {
+    background-color: #e2d413;
+}
+
 footer {
     padding: 20px;
     clear: both;
 }
 
+footer:hover {
+    background-color: #421818;
+}
+
 .container {
     overflow: auto;
+}
+
+.container:hover {
+    /*background-color: #e41a1a;*/
+}
+
+.black {
+    background-color: black;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.original {
+    background-color: #ebebeb;
 }

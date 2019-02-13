@@ -4,12 +4,13 @@
         <title>Homework</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="../../reset.css">
     </head>
     <body>
-        <header>header</header>
-        <nav>nav</nav>
+        <header onclick="changeColor(this,'black');">header</header>
+        <nav onclick="changeColor(this,'brown');">nav</nav>
         <div class="container">
-            <section>
+            <section onclick="changeColor(this,'yellow');">
                 section
                 <article>
                     article
@@ -21,4 +22,15 @@
         </div>
         <footer>footer</footer>
     </body>
+    <script>
+        function changeColor(elem,color) {
+            var tagName = elem.tagName;
+            var elemColor = elem.style.backgroundColor;
+            if (elemColor==color) {
+                elem.style.backgroundColor = "#ebebeb";
+            } else {
+                elem.style.backgroundColor = color;
+            }
+        }
+    </script>
 </html>
