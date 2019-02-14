@@ -17,7 +17,7 @@ header {
     padding: 20px;
 }
 
-header:hover {
+header:hover, h1:active {
     background-color: #466b31;
 }
 
@@ -26,7 +26,7 @@ nav {
     margin-bottom: 20px;
 }
 
-nav:hover {
+nav:hover, p:active {
     background-color: #341f5c;
 }
 
@@ -44,11 +44,11 @@ h1, p {
     margin: 10px;
 }
 
-h1:hover {
+h1:hover, article:active {
     background-color: #1596b6;
 }
 
-p:hover {
+p:hover, section:active {
     background-color: #68b125;
 }
 
@@ -61,7 +61,7 @@ section {
     margin-right: 20px;
 }
 
-section:hover {
+section:hover, aside:active {
     background-color: #9b1c7b;
 }
 
@@ -72,7 +72,7 @@ aside {
     height: 172px;
 }
 
-aside:hover {
+aside:hover, footer:active {
     background-color: #e2d413;
 }
 
@@ -81,7 +81,7 @@ footer {
     clear: both;
 }
 
-footer:hover {
+footer:hover, header:active {
     background-color: #421818;
 }
 
