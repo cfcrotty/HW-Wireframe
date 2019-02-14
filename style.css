@@ -48,7 +48,7 @@ h1:hover, article:active {
     background-color: #1596b6;
 }
 
-p:hover, section:active {
+p:hover{
     background-color: #68b125;
 }
 
@@ -61,7 +61,7 @@ section {
     margin-right: 20px;
 }
 
-section:hover, aside:active {
+section:hover {
     background-color: #9b1c7b;
 }
 
@@ -72,7 +72,7 @@ aside {
     height: 172px;
 }
 
-aside:hover, footer:active {
+aside:hover, nav:active {
     background-color: #e2d413;
 }
 
@@ -89,8 +89,8 @@ footer:hover, header:active {
     overflow: auto;
 }
 
-.container:hover {
-    /*background-color: #e41a1a;*/
+footer:active {
+    background-color: #e2d413;
 }
 
 .black {
